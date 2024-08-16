@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    header, .banner-content, .habit-cards, .run, .BMI-container, .footer-content,.Order-cards{
+    header, .banner-content, .habit-cards, .run, .BMI-container, .footer-content,.Order-cards, .row-1, .row-2{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -17,7 +17,7 @@
         margin: 0 auto;
    }
 
-   .ul{
+   .ul , .hide{
     display: none;
     }
 
@@ -56,6 +56,10 @@
     position: absolute;
     top: 5rem;
     left: 11rem;
+}
+
+.row-1, .row-2{
+    gap: 10px;
 }
 
 }
