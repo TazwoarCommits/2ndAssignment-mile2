@@ -1,0 +1,427 @@
+#inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings :
+      "slnt" 0;
+  }
+
+  @font-face {
+    font-family: miama;
+    src: url(../miama/Miama.otf);
+    src: url(../miama/Miama.ttf);
+  }
+  
+  
+  #miama{
+    font-family: miama;
+    font-size: 8rem;
+    font-weight: 200;
+  }
+
+/*  shared styles  */
+
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+
+
+}
+
+.banner-btn{
+    margin-right: 14px;
+    color: white;
+    border: none;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border-radius: 42px;
+    padding: 16px 48px;
+  }
+  .banner-btn2{
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(51, 49, 49);
+  }
+  
+
+
+.primary-text{
+    color: white;
+}
+
+.secondary-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.badge-text{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.badge-font2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+ 
+.badge-font{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.badge-subtitle{
+    font-size: 1rem;
+} 
+
+.section-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    line-height: 120%;
+}
+.subtitle{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 671px;
+}
+
+
+/* body related styles */
+
+body{
+    background: black;
+}
+
+
+header{
+    background: linear-gradient(180deg, rgba(17, 17, 17), rgba(119, 119, 119, 0));
+} 
+
+#navbar{
+    margin: 2rem 12rem 0 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nav-li{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 0 20px 0 3px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.12rem;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn{
+    border: none;
+    padding: 0.5rem 2.25rem;
+    border-radius: 2.9rem;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+.hamburger{
+    display: none;
+}
+
+
+/* banner section styles */
+
+.banner-content{
+    margin: 6rem 17rem 4.3rem 12rem;
+    border: 1px  ;
+    padding-bottom: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.banner-slogun{
+    font-size: 4.9rem;
+    line-height: 5rem;
+    font-weight: 800;
+    margin-bottom: 29px;
+}
+
+ .banner-description{
+    margin-bottom: 28px;
+ }
+
+.buttons{
+    display: flex;
+}
+#tutorial{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter:blur (20px);
+    transform: scale(1);
+    border: 1px solid rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    padding: 20px 23px 20px 23px;
+    position: absolute;
+    /* margin-left: -6rem;
+    margin-top: -10rem; */
+    bottom: 9rem;
+    right:  ;
+}
+
+#circle{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+} 
+
+#workout{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15rem;
+    margin-top: -24.4rem; */
+    background-color: rgba(255, 255, 255, 0.1) ;
+    backdrop-filter: blur (20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px 25px 15px 25px;
+    transform: scale(1);
+}
+
+/* Habit section */
+
+.habit{
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1rem;
+
+}
+
+
+.habit-cards{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.card{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img img {
+    border: 1px solid;
+    border-radius: 50%;
+    margin-bottom: 1.8rem;
+}
+
+.card-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 7px;
+    
+}
+.card-description{
+    max-width: 230px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    text-align: center;
+}
+
+/* run section */
+.run{
+    border: 1px solid;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 1060px;
+    max-height: auto; 
+    margin: auto;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.run img {
+    width: 366px;
+    height: 300px;
+    object-fit: none;
+    object-position: 66% 33%;
+    border-radius: 18px;
+}
+
+.habit-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.width{
+    max-width: 450px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+
+/* BMI calculation section starts */
+
+
+.BMI-calculate{
+    margin-top: 6rem;
+    max-width: auto;
+}
+.calculate-text{
+    max-width: 650px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.BMI-container{
+    margin-top: 5.5rem;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+.BMI-chart , .BMI-form h1{
+    color: rgb(255, 255, 255);;
+}
+.BMI-chart table {
+    text-align: center;
+    width: 19.5rem;
+    height: 14rem;
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5);
+    border:2px solid rgba(255, 255, 255, 0.1);
+}
+
+th{
+    color: rgb(255, 255, 255);
+    border:2px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    font-size: 1rem;
+}
+
+td{
+    border:2px solid rgba(255, 255, 255, 0.1);
+    font-size: .85rem;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+form > input, select{
+    color: rgba(255, 255, 255, 0.6);;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px ;
+    padding: 12px 40px 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+option{
+    background: rgba(255, 255, 255, 0.1);;
+}
+
+/* Partners section starts */
+
+.Order-Now{
+    margin-top: 6.25rem;
+}
+
+.section-text{
+    margin-bottom: 5rem;
+}
+
+.link-img > a > img{
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.Order-cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.order-card{
+    position: relative;
+
+}
+.card-texts{
+    color: rgb(241, 226, 206);
+    position: absolute;
+    top: 5rem;
+    left: 6rem;
+}
+/* body footer starts */
+
+.main-footer{
+    margin-top: 6rem;
+    background: rgb(34, 34, 34);
+}
+
+.footer-content{
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9rem;
+}
+
+.started{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.started p{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.started a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+#footer{
+    border-top:  2px solid rgba(255, 255, 255, 0.1);
+    background: rgb(34, 34, 34);
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
