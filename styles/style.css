@@ -2,10 +2,9 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings :
+    font-style : normal;
       "slnt" 0;
-  }
+ }
 
   @font-face {
     font-family: miama;
@@ -349,10 +348,13 @@ option{
     background: rgba(255, 255, 255, 0.1);;
 }
 
-/* Partners section starts */
+/* Order-Now section starts */
 
 .Order-Now{
     margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-text{
@@ -360,7 +362,7 @@ option{
 }
 
 .link-img > a > img{
-    width: 350px;
+    width: 325px;
     height: 300px;
     border-radius: 40px;
     object-fit: cover;
@@ -378,11 +380,30 @@ option{
 
 }
 .card-texts{
-    color: rgb(241, 226, 206);
+    color: rgb(245, 184, 105);
     position: absolute;
-    top: 5rem;
+    top: 15rem;
     left: 6rem;
 }
+
+.order-btn{
+    margin-top: 3rem;
+    background-color: rgb(230, 83, 60);
+    margin-right: 14px;
+    border: none;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border-radius: 42px;
+    padding: 16px 48px;
+}
+
+.order-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
 /* body footer starts */
 
 .main-footer{
@@ -411,11 +432,11 @@ option{
     font-size: 2rem;
     font-weight: 700;
 }
-.started a {
+.started a{
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
-
+/* Body Footer Starts */
 #footer{
     border-top:  2px solid rgba(255, 255, 255, 0.1);
     background: rgb(34, 34, 34);
