@@ -35,22 +35,6 @@
     .form input{
         max-width: 120px
     }
-    #tutorial{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        background-color: rgba(48, 48, 48, 0.54);
-        backdrop-filter:blur (20px);
-        transform: scale(1);
-        border: 1px solid rgba(48, 48, 48, 0.54);
-        border-radius: 12px;
-        padding: 20px 23px 20px 23px;
-        position: absolute;
-        /* margin-left: -6rem;
-        margin-top: -10rem; */
-        bottom: -28rem;
-        right: 13rem ;
-}
 
 /* main-footer section*/
 .footer-content{
@@ -63,6 +47,15 @@
 .footer-text, .started{
     margin-left: 1.5rem;
 
+}
+.tutorial-btn{
+    position: absolute;
+    left: -1.8rem;
+}
+.workout-btn{
+    position: absolute;
+    top: 5rem;
+    left: 11rem;
 }
 
 }
