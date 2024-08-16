@@ -51,4 +51,17 @@
         bottom: -28rem;
         right: 13rem ;
 }
+
+/* main-footer section*/
+.footer-content{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-tect, .started{
+    margin: .5rem;
+}
+
 }

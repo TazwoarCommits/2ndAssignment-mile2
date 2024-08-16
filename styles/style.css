@@ -380,7 +380,7 @@ option{
 
 }
 .card-texts{
-    color: rgb(245, 184, 105);
+    color: rgba(245, 184, 105);
     position: absolute;
     top: 15rem;
     left: 6rem;
